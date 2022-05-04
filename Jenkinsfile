@@ -8,9 +8,9 @@ pipeline
 
 			    sh 'echo test'
 			    sh ' ' '
-			    echo "multi line"
-			    ls -lrt
-			     ...
+			        echo "multi line"
+			        ls -lrt
+			     ' ' '
 			    }
 		   }
 		}
