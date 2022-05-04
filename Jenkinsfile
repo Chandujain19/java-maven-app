@@ -7,10 +7,10 @@ pipeline
 		     steps {
 
 			    sh 'echo test'
-			    sh ' ' '
+			    sh '''
 			        echo "multi line"
 			        ls -lrt
-			     ' ' '
+			       '''
 			    }
 		   }
 		}
